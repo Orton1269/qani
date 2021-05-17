@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+h1{
+    text-align: center;
+}
+a{
+    position: relative;
+    left: 45%;
+    font-size: 35px;
+}

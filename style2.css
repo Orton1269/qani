@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+body{
+    background-image: url(https://wallpapertag.com/wallpaper/full/1/f/c/252439-most-popular-white-gradient-background-2560x1440.jpg);
+    background-size: cover;
+}
+.heading{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align-last: center;
+    color: chartreuse;
+    position: relative;
+    animation-name: a2;
+    animation-duration: 2s;
+}
+@keyframes a2{
+    0%{
+        top: 400px;
+    }
+    33%{
+        top: 400px;
+
+    }
+    66%{
+        top: 400px;
+
+    }
+    100%{
+        top: 0px;
+
+    }
+}
+.sc{
+    font-size: 30px;
+    color: cyan;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    animation-name: a3;
+    animation-duration: 2s;
+}
+@keyframes a3{
+    0%{
+        left: 400px;
+    }
+    33%{
+        left: 400px;
+
+    }
+    66%{
+        left: 400px;
+
+    }
+    100%{
+        left: 20px;
+
+    }
+}
+.sco{
+    font-size: 25px;
+    color: crimson;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    animation-name: a4;
+    animation-duration: 2s;
+}
+@keyframes a4{
+    0%{
+        top: 0px;
+    }
+    33%{
+        top: 0px;
+
+    }
+    66%{
+        top: 0px;
+
+    }
+    100%{
+        top: 60px;
+
+    }
+}
+.q{
+    text-align-last: center;
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+    color:lime;
+    animation-name: a1;
+    animation-duration: 1.5s;
+}
+@keyframes a1{
+    0%{
+        top: 400px;
+    }
+    33%{
+        top: 400px;
+
+    }
+    66%{
+        top: 400px;
+
+    }
+    100%{
+        top: 70px;
+
+    }
+}
+.choice{
+    position: relative;
+    top: 50px;
+    left: 400px;
+    font-size: 24px;
+    color: yellow;
+    font-family: 'Texturina', serif;
+}
+.c{
+    position: relative;
+    top: 46px;
+    left: 340px;
+    font-size: 26px;
+    color: yellow;
+    font-family: 'Texturina', serif;
+}
+@media screen and (max-width:600px)
+{
+    .sco{
+        top: 55px;
+    }
+    .q{
+        left: -5px;
+        font-size: 24px;
+    }
+    .choice{
+        font-size: 22px;
+        left: 70px;
+    }
+    .c{
+        font-size: 20px;
+        left: 50px;
+        top: 55px;
+    }
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+.c1{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-name: ac1;
+    animation-duration: 1.5s;
+}
+@keyframes ac1{
+    0%{
+        top: -200px;
+        left: -300px;
+    }
+    33%{
+        top: -200px;
+        left: -300px;
+    }
+    66%{
+        top: -200px;
+        left: -300px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+.c2{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-name: ac2;
+    animation-duration: 1.5s;
+}
+@keyframes ac2{
+    0%{
+        top: -200px;
+        left: 300px;
+    }
+    33%{
+        top: -200px;
+        left: 300px;
+    }
+    66%{
+        top: -200px;
+        left: 300px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+.c3{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-name: ac3;
+    animation-duration: 1.5s;
+}
+@keyframes ac3{
+    0%{
+        top: 200px;
+        left: -300px;
+    }
+    33%{
+        top: 200px;
+        left: -300px;
+    }
+    66%{
+        top: 200px;
+        left: -300px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+.c4{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-name: ac4;
+    animation-duration: 1.5s;
+}
+@keyframes ac4{
+    0%{
+        top: 200px;
+        left: 300px;
+    }
+    33%{
+        top: 200px;
+        left: 300px;
+    }
+    66%{
+        top: 200px;
+        left: 300px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
